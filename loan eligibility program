@@ -1,0 +1,16 @@
+# Name:Phineas Kiprotich
+# reg no:PA106/G/29213/25
+
+# Loan eligibility program
+
+# Get user input
+age = int(input("please enter your age:"))
+income = float(input("please enter your annual income (in sh):"))
+
+# Check eligibility
+if age >= 21 and income >= 21000:
+    print("congratulations you qualify for a loan,")
+
+else:
+
+    print("unfortunately you don't qualify fora loan at this time.")
